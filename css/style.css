@@ -1,0 +1,44 @@
+.card{
+    align-content: center;
+    padding: 20px;
+    margin:auto;
+    box-shadow: 20px 20px #9baacb;
+    font-family: 'Playfair Display', serif;
+}
+a{
+    font-family: 'Hammersmith One';
+    font-weight: 700;
+    color: #b35897;
+    text-decoration: none;
+}
+a:active{
+    color:#be3681
+}
+a:hover{
+    text-decoration: none;
+    color:#9baacb;
+}
+a:visited{
+    color:#90d1e4;
+}
+h1{
+    font-family: 'Hammersmith One';
+    font-weight: 700;
+    font-style:italic;
+    color: #be3681;
+}
+h6{
+    color: #a782b2;
+}
+.btn{
+    background-color:#b35897;
+    color: #000000;
+    font-family:'Hammersmith One';
+}
+p{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+}
+.footer{
+    width:100%;
+}
