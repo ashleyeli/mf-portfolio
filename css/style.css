@@ -1,7 +1,7 @@
 .card{
     align-content: center;
     padding: 20px;
-    margin:auto;
+    margin: 20px 30px 20px 30px;
     box-shadow: 20px 20px #9baacb;
     font-family: 'Playfair Display', serif;
 }
