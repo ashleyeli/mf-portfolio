@@ -10,23 +10,26 @@ a{
     font-weight: 700;
     color: #b35897;
     text-decoration: none;
+    transition-duration: 0.4s;
 }
-a:active{
-    color:#be3681
-}
-a:hover{
-    text-decoration: none;
-    color:#9baacb;
-}
-a:visited{
+    a:active {
+    color:#be3681;
+    }
+    a:hover{
+    font-family:monospace;
+    }
+    a:visited{
     color:#90d1e4;
-}
-h1{
+    }
+h1, h5{
     font-family: 'Hammersmith One';
     font-weight: 700;
     font-style:italic;
     color: #be3681;
 }
+    h1:hover{
+        text-decoration: wavy;
+    }
 h6{
     color: #a782b2;
 }
@@ -34,9 +37,16 @@ h6{
     background-color:#b35897;
     color: #000000;
     font-family:'Hammersmith One';
+    transition-duration: 0.4s;
 }
+    .btn:hover{
+        background-color: #be3681;
+        border-radius: round;
+        color:#9baacb;
+        box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
+    }
 p{
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Playfair Display';
 }
 .footer{
